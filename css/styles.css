@@ -131,11 +131,10 @@ overflow: hidden;
   border-radius: 15px;
   padding: 21px 47px;
   border: none;
-  cursor: pointer;
-  
+  cursor: pointer; 
 }
-main{
-
+.header-btn:hover{
+  background-color: #08a29a;
 }
 .intro{
 margin-bottom: 200px;
@@ -166,6 +165,9 @@ margin-bottom: 200px;
   padding: 21px 80px;
   position: relative;
   cursor: pointer;
+}
+.intro-btn:hover{
+   background-color: #08a29a;
 }
 .intro-btn::after{
   position: absolute;
@@ -283,9 +285,7 @@ margin-bottom: 200px;
   color: #486958;
   width: 708px;
 }
-.project{
 
-}
 .project-title{
   font-weight: 800;
   font-size: 70px;
@@ -454,9 +454,6 @@ margin-bottom: 240px;
   display: block;
   color: #58A9A5;
 }
-.contact{
-
-}
 .contact-content{
   display: flex;
   justify-content: space-between;
@@ -535,5 +532,9 @@ margin-bottom: 240px;
   border-radius: 20px 20px 20px 0px;
   padding: 21px 73px;
   margin-bottom: 35px;
+  cursor: pointer;
+}
+.forma-btn:hover{
+  background-color: #087c76;
 }
 
